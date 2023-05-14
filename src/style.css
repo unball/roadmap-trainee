@@ -1,0 +1,41 @@
+body {
+    font-family: Bungee;
+    margin: auto;
+}
+
+
+.box {
+    margin: 10px;
+    padding: 25px;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+}
+
+.box.role {
+    color: #008136;
+    font-size: larger;
+}
+
+.box.training {
+    border: 1px solid #C75B16;
+    background-color: #E2873C;
+    color: black;
+}
+
+.box.exercise{
+    border-radius: 80%;
+    background-color: lightgray;
+}
+
+.connector {
+    margin: 0;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    border: 3px solid #0d99ff;
+    padding: 0;
+    position: relative;
+    top: auto;
+    left: auto;
+  }
