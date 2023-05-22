@@ -1,41 +1,67 @@
 body {
-    font-family: Bungee;
-    margin: auto;
-}
-
-
-.box {
-    margin: 10px;
-    padding: 25px;
-    text-align: center;
-    display: inline-block;
-    position: relative;
-}
-
-.box.role {
-    color: #008136;
-    font-size: larger;
-}
-
-.box.training {
-    border: 1px solid #C75B16;
-    background-color: #E2873C;
-    color: black;
-}
-
-.box.exercise{
-    border-radius: 80%;
-    background-color: lightgray;
-}
-
-.connector {
-    margin: 0;
-    height: auto;
-    display: flex;
-    flex-direction: row;
-    border: 3px solid #0d99ff;
-    padding: 0;
-    position: relative;
-    top: auto;
-    left: auto;
+    background: #009578;
   }
+  
+  .timeline {
+    margin: 0 auto;
+    max-width: 750px;
+    padding: 25px;
+    display: grid;
+    grid-template-columns: 1fr 3px 1fr;
+    color: #ffffff;
+  }
+  
+  .timeline__component {
+    margin: 0 20px 20px 20px;
+    font-family: "Bungee";
+  }
+  
+  .timeline__component--bg {
+    padding: 1.5em;
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    font-family: "Roboto";
+  }
+  
+  /* LEAVE TILL LAST */
+  .timeline__component--bottom {
+    margin-bottom: 0;
+  }
+  
+  .timeline__middle {
+    position: relative;
+    background: #ffffff;
+  }
+  
+  .timeline__point {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 15px;
+    height: 15px;
+    background: #ffffff;
+    border-radius: 50%;
+  }
+  
+  /* LEAVE TILL LAST */
+  .timeline__point--bottom {
+    top: initial;
+    bottom: 0;
+  }
+  
+  .timeline__date--right {
+    text-align: right;
+  }
+  
+  .timeline__title {
+    margin: 0;
+    font-size: medium;
+    font-family: "Bungee";
+  }
+  
+  .timeline__paragraph {
+    line-height: 1.5;
+  }
+  
