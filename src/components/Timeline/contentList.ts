@@ -35,7 +35,7 @@ const contentList: ItemList[] = [
     title: "Lógica de programação com Python",
     description:
       "Conceitos de lógica de programação, engenharia de software e orientação à objetos utilizando a linguagem Python.",
-    responsibleMember: "Ayssa",
+    responsibleMember: "Raul",
     date: "27/05/2023",
   },
   {
@@ -70,6 +70,14 @@ const contentList: ItemList[] = [
     title: "Inteligência Artificial",
     description: "Conceitos básicos de Inteligência Artificial",
     responsibleMember: "Ayssa",
+    date: "27/05/2023",
+  },
+  {
+    title: "Figma e Design Thinking ",
+    description:
+      "Tutorial básico de Figma e conceitos básicos sobre Design Thinking.",
+    responsibleMember: "Bismarck",
+
     date: "27/05/2023",
   },
   {
